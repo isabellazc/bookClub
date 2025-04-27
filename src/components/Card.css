@@ -1,0 +1,83 @@
+.Card {
+    width: 30rem;
+    font-size: 15px;
+    color:rgb(17, 17, 17);
+    height: auto;
+    background-color: #f9f9f9;
+    font-weight: normal;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.Card h2 {
+    font-size: 25px;
+    font-weight: bold;
+    color: #953b3b;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #101010;
+    background-color: #f2fb69;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    background-color: #a95d69;
+    transform: scale(1.05);
+}
+
+a {
+    text-decoration: none;
+}
+
+.button-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+
+.agree-button,
+.disagree-button {
+  padding: 8px 12px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.agree-button {
+  background-color: #cf5261;; /* Green */
+  color: white;
+}
+
+.disagree-button {
+  background-color: #cf5261;; /* Red */
+  color: white;
+}
+
+.agree-button:hover {
+  background-color: #45a049;
+}
+
+.disagree-button:hover {
+  background-color: #d32f2f;
+}
