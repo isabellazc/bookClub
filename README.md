@@ -4,7 +4,7 @@ Submitted by: Alexa Zambrano
 
 This web app lets you share reviews of the books you are currently reading, and see if other people agree or not 
 
-Time spent: **X** hours spent in total
+Time spent:  20 hours spent in total
 
 ## Required Features
 
@@ -41,7 +41,7 @@ The following **required** functionality is completed:
 - [x] **A post that a user previously created can be edited or deleted from its post pages**
   - After a user creates a new post, they can go back and edit the post
   - A previously created post can be deleted from its post page
-
+<!--
 The following **optional** features are implemented:
 
 
@@ -64,7 +64,7 @@ The following **optional** features are implemented:
 The following **additional** features are implemented:
 
 * [ ] List anything else that you added to improve the site's functionality!
-
+-->
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
@@ -84,7 +84,7 @@ Describe any challenges encountered while building the app.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2025] [Alexa Zambrano]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
