@@ -4,14 +4,15 @@
   padding: 2rem;
   text-align: center;
 }
-/* Navbar :) */
+/* Home page*/ 
 .header h1 {
   font-family: "DM Serif Display", serif;
   font-weight: 400;
   font-style: normal;
   font-size: 15rem;
-  color: #f4fb8f;
+  color: #292929;
 }
+/* Navbar :) */
 nav {
   display: flex;
   position: fixed;
@@ -29,12 +30,24 @@ nav li{
   font-size: 1.2rem;
   list-style: none;
 }
-/*Pages*/
+/* Pages */
 .page-title{
   font-family: "DM Serif Display", serif;
   font-weight: 400;
   font-style: normal;
- }
+  color: #222222;
+  font-size: 2rem;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.page-container{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 80vh;
+  min-width: 1000px;
+}
 
 
 
@@ -49,12 +62,12 @@ nav li{
 }
 
 .background {
-  flex: 1; /* Take up the left side of the space */
-  width: 50%; /* Cover 50% of the page width */
-  height: 100%; /* Cover the full height of the viewport */
-  object-fit: cover; /* Ensure the image scales nicely without distortion */
-  margin: 0; /* Remove any default margins */
-  padding: 0; /* Remove any default padding */
+  flex: 1; 
+  width: 50%; 
+  height: 100%; 
+  object-fit: cover; 
+  margin: 0; 
+  padding: 0; 
 }
 
 .header {
@@ -66,14 +79,30 @@ nav li{
   justify-content: center; /* Center the content vertically */
 }
 
-.page-title {
-  font-size: 2rem;
-  margin-bottom: 10px;
+
+/*Cards Container*/
+
+.posts-page-header{
+  position: sticky;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-width: 300px;
+  margin: 2rem 0;
+  padding: 0rem;
+  align-items:center;
+
 }
 
+#standard-basic {
+  width: 100%; /* Makes the TextField take up the full width of its container */
+  max-width: 700px; /* Limits the maximum width of the TextField */
+  margin: 0 auto; /* Centers the TextField horizontally */
+}
 
 .card {
   padding: 2em;
+  
 }
 
 .read-the-docs {
@@ -121,7 +150,7 @@ input:focus{
   align-items: center;
   gap: 0.5rem;
   font-size: 1rem;
-  color: #ffffff;
+  color: #1e1e1e;
   cursor: pointer;
 }
 
@@ -129,7 +158,7 @@ input:focus{
   appearance: none;
   width: 1.5rem;
   height: 1.5rem;
-  border: 2px solid #f4fb8f;
+  border: 2px solid #101010;
   border-radius: 50%;
   outline: none;
   cursor: pointer;
@@ -137,7 +166,7 @@ input:focus{
 }
 
 .radio-input:checked {
-  background-color: #f4fb8f;
+  background-color: #f0fa66;
   border-color: #f4fb8f;
 }
 
