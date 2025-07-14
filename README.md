@@ -1,10 +1,12 @@
-# BookTea
+# BookTea 
 
-Submitted by: Alexa Zambrano
+Hi there! 👋
 
-This web app lets you share reviews of the books you are currently reading, and see if other people agree or not 
+You’ve stumbled upon my BookTea project. This web app allows you to share reviews of the books you’re currently reading and your opinions on them. As a reader, I find immense joy in discovering what others are reading and their insights on those books!
 
-Time spent:  20 hours spent in total
+
+This project is still in the construction phase! 🔨 So far, we have this: 
+
 
 ## Features
 
