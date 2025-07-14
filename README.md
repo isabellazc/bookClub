@@ -1,4 +1,4 @@
-# Web Development Final Project - BookTea
+# BookTea
 
 Submitted by: Alexa Zambrano
 
@@ -6,10 +6,7 @@ This web app lets you share reviews of the books you are currently reading, and 
 
 Time spent:  20 hours spent in total
 
-## Required Features
-
-The following **required** functionality is completed:
-
+## Features
 
 - [x] **Web app includes a create form that allows the user to create posts**
   - Form requires users to add a post title
@@ -22,18 +19,11 @@ The following **required** functionality is completed:
     - creation time
     - title 
     - upvotes count
-  - Clicking on a post should direct the user to a new page for the selected post
-- [] **Users can view posts in different ways**
-  - Users can sort posts by either:
-    -  creation time
-    -  upvotes count
-  - Users can search for posts by title
+  
 - [x] **Users can interact with each post in different ways**
   - The app includes a separate post page for each created post when clicked, where any additional information is shown, including:
     - content
-    - image
-    - comments
-  - Users can leave comments underneath a post on the post page
+    
   - Each post includes an upvote button on the post page. 
     - Each click increases the post's upvotes count by one
     - Users can upvote any post any number of times
@@ -71,16 +61,11 @@ Here's a walkthrough of implemented user stories:
 
 <img src='./src/assets/bookTea.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-<!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+<!--  GIF tool I used! -->
+GIF created with [Kap](https://getkap.co/) for macOS
 
-## Notes
 
-Describe any challenges encountered while building the app.
+
 
 ## License
 
