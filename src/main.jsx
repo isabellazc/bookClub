@@ -7,6 +7,7 @@ import App from './App.jsx'
 import CreatePost from './pages/CreatePost.jsx'
 import EditPost from './pages/EditPost.jsx'
 import ReadPost from './pages/ReadPost.jsx'
+import ChatbotPage from './pages/ChatbotPage.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -18,6 +19,7 @@ createRoot(document.getElementById('root')).render(
           <Route path="/read" element={<ReadPost />} />
           <Route path="/create" element={<CreatePost />} />
           <Route path="/edit/:id" element={<EditPost />} />
+          <Route path="/askWisely" element={<ChatbotPage/>} />
         </Route>
         
       </Routes>
