@@ -5,7 +5,9 @@ Hi there! 👋
 You’ve stumbled upon my BookTea project. This web app allows you to share reviews of the books you’re currently reading and your opinions on them. As a reader, I find immense joy in discovering what others are reading and their insights on those books!
 
 
-This project is still in the construction phase! 🔨 So far, we have this: 
+This project is still in the construction phase! 🔨
+
+So far, we have this: 
 
 
 ## Features
