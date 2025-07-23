@@ -1,0 +1,34 @@
+.bubble {
+    display: inline-block;
+    background-color: rgb(182, 53, 182);
+    color: white;
+    padding: 5px 15px;
+    min-width: 30px;
+    max-width: 300px;
+    border-radius: 15px;
+    position: relative;
+    margin: 10px;
+    word-wrap: break-word;
+    text-align: left;
+}
+
+/* User message bubble (aligned to the left) */
+.user-bubble {
+    background-color: rgb(182, 53, 182); /* Different color for bot messages */
+    align-self: flex-end; /* Aligns the bubble to the right */
+    margin-left: 10px;
+    margin-right: auto; /* Pushes the bubble to the left */
+    
+}
+
+/* Bot message bubble (aligned to the right) */
+.bot-bubble {
+
+    background-color: rgb(150, 150, 150); /* Different color for user messages */
+    align-self: flex-start; /* Aligns the bubble to the left */
+    margin-right: 10px;
+    margin-left: auto; /* Pushes the bubble to the right */
+}
+
+
+

@@ -1,0 +1,14 @@
+.chat-page-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 80vh;
+    min-width: 500px;
+}
+
+.chat-container{
+
+    display: flex;
+    min-height:70vh ;
+    flex-direction: column;
+}
